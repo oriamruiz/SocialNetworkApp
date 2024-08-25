@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hh6gVzkpSnhILKPeuuKwT7CcRcTQYOMnxYzNqNdAEU/QUbEFNHRSrgy3jaI/gxaLeF1FJwV0Ls2T8vLXTPy4HQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp.Core.Domain\\SocialNetworkApp.Core.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.18\\microsoft.windowsdesktop.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.18\\microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "C:\\Users\\oriam\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.18\\microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

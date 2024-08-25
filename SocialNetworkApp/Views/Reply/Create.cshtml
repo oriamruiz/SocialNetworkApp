@@ -1,0 +1,56 @@
+﻿@model SocialNetworkApp.Core.Application.ViewModels.Replies.SaveReplyViewModel
+
+@{
+    ViewData["Title"] = "Responder comentario";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Crear respuesta</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Reply" asp-action="Create">
+
+
+                        <div class="mb-2">
+                            <label asp-for="Text" class="form-label">Contenido de la respuesta: </label>
+                            <textarea asp-for="Text" class="form-control" placeholder="ingrese el texto de la respuesta"></textarea>
+                            <span asp-validation-for="Text" class="text-danger"></span>
+                        </div>
+
+                        <input type="hidden" asp-for="CommentId" />
+
+                        <input type="hidden" asp-for="Id" />
+
+                        <input type="hidden" asp-for="RedirectTo" />
+
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Comentar</button>
+                            @if (Model.RedirectTo == "Friends")
+                            {
+                                <a asp-controller="Friend" asp-action="Index" class="btn btn-warning">Volver</a>
+                            }
+                            else
+                            {
+                                <a asp-controller="Home" asp-action="HomePage" class="btn btn-warning">Volver</a>
+                            }
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+

@@ -1,0 +1,32 @@
+﻿@model SocialNetworkApp.Core.Application.ViewModels.Users.SaveUserViewModel
+
+
+@{
+	ViewData["Title"] = "Mi Perfil";
+	
+}
+
+<div class="container-fluid ">
+	<div class="card w-97 m-3">
+		<img src="@(Model.AccountImgUrl)" title="Foto de perfil" class="card-img-top" style="height: 400px; margin-Top:5px;" alt="Foto de perfil">
+		<div class="card-body">
+			<h5 class="card-title">Informacion de perfil</h5>
+		</div>
+		<ul class="list-group list-group-flush ">
+			<li class="list-group-item"><strong>Nombre de usuario:</strong> @(Model.Username)</li>
+			<li class="list-group-item"><strong>Nombre:</strong> @(Model.Name)</li>
+			<li class="list-group-item"><strong>Apellido:</strong> @(Model.LastName)</li>
+			<li class="list-group-item"><strong>Telefono:</strong> @(Model.PhoneNumber)</li>
+			<li class="list-group-item"><strong>Correo:</strong> @(Model.Email)</li>
+			<li class="list-group-item"><strong>Numero de Telefono:</strong> @(Model.PhoneNumber)</li>
+
+		</ul>
+		<div class="card-body">
+			
+
+			<a asp-controller="Profile" asp-action="Update" asp-route-id="@Model.Id" class="btn btn-primary btn-user btn-block">Editar informacion personal</a>
+			<a asp-controller="Home" asp-action="HomePage" class="btn btn-warning">Volver</a>
+
+		</div>
+	</div>
+</div>

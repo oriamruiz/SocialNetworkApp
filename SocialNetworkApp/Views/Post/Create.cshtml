@@ -1,0 +1,69 @@
+﻿@model SocialNetworkApp.Core.Application.ViewModels.Posts.SavePostViewModel
+
+@{
+    ViewData["Title"] = "Postear";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Crear Publicacion</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data" asp-controller="Post" asp-action="Create">
+                        
+                        @if(Model.TypePost == "TextPost")
+                        {
+                            <div class="mb-2">
+                                <label asp-for="Text" class="form-label">Contenido del post: </label>
+                                <textarea asp-for="Text" class="form-control" placeholder="ingrese el texto del post"></textarea>
+                                <span asp-validation-for="Text" class="text-danger"></span>
+                            </div>
+                            <input type="hidden" asp-for="TypePost" value="TextPost" />
+                        }
+                        
+                        @if(Model.TypePost == "ImagePost")
+                        {
+                            <div class="mb-2">
+                                <label asp-for="ImageFile" class="form-label">Imagen a postear: </label>
+                                <input required asp-for="ImageFile" class="form-control"  />
+
+                            </div>
+                            <input type="hidden" asp-for="TypePost" value="ImagePost" />
+                        }
+
+                        @if(Model.TypePost == "VideoPost")
+                        {
+                            <div class="mb-2">
+                                <label asp-for="VideoUrl" class="form-label">Url del video a postear: </label>
+                                <input asp-for="VideoUrl" class="form-control" placeholder="Ingrese la url del video" />
+                                <span asp-validation-for="VideoUrl" class="text-danger"></span>
+                            </div>
+
+                            <input type="hidden" asp-for="TypePost" value="VideoPost" />
+                        }
+
+                        <input type="hidden" asp-for="Id" />
+
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Postear</button>
+                            <a asp-controller="Home" asp-action="HomePage" class="btn btn-warning">Volver</a>
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+

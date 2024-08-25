@@ -1,0 +1,15 @@
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\bin\Debug\net7.0\SocialNetworkApp.Core.Application.deps.json
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\bin\Debug\net7.0\SocialNetworkApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\bin\Debug\net7.0\SocialNetworkApp.Core.Application.pdb
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\bin\Debug\net7.0\SocialNetworkApp.Core.Domain.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\bin\Debug\net7.0\SocialNetworkApp.Core.Domain.pdb
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNetworkApp.Core.Application.csproj.AssemblyReference.cache
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNetworkApp.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNetworkApp.Core.Application.AssemblyInfoInputs.cache
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNetworkApp.Core.Application.AssemblyInfo.cs
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNetworkApp.Core.Application.csproj.CoreCompileInputs.cache
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNe.81F7F2FA.Up2Date
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNetworkApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\refint\SocialNetworkApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\SocialNetworkApp.Core.Application.pdb
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Core.Application\obj\Debug\net7.0\ref\SocialNetworkApp.Core.Application.dll

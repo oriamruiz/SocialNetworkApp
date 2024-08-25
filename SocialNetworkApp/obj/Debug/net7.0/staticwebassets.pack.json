@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SocialNetworkApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SocialNetworkApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Posts\\1010\\ab032569-dec5-4c22-a15e-6052cd47cc5b.png",
+      "PackagePath": "staticwebassets\\Images\\Posts\\1010\\ab032569-dec5-4c22-a15e-6052cd47cc5b.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Posts\\1012\\d6ef6f69-df63-44c3-9bf6-fa3a271f7f70.png",
+      "PackagePath": "staticwebassets\\Images\\Posts\\1012\\d6ef6f69-df63-44c3-9bf6-fa3a271f7f70.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\1012\\08896aa2-27ba-4af4-b8b8-525117689d9b.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\1012\\08896aa2-27ba-4af4-b8b8-525117689d9b.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\1013\\06367480-dfd1-447c-932c-ce7951a448cb.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\1013\\06367480-dfd1-447c-932c-ce7951a448cb.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\1014\\8831c645-b1c6-4276-b7f6-491d7e5522a2.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\1014\\8831c645-b1c6-4276-b7f6-491d7e5522a2.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\2014\\d2925197-8a76-4278-a62b-07ea22c3d84c.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\2014\\d2925197-8a76-4278-a62b-07ea22c3d84c.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\2015\\45a3f278-29dd-4a77-82fc-bb5acd203e50.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\2015\\45a3f278-29dd-4a77-82fc-bb5acd203e50.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\2016\\aa5c069d-5b83-4cbd-8ff6-8fb495fd4498.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\2016\\aa5c069d-5b83-4cbd-8ff6-8fb495fd4498.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\2017\\e5374f8f-4c64-4729-bcdb-bcdbbcf5b379.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\2017\\e5374f8f-4c64-4729-bcdb-bcdbbcf5b379.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\3014\\b49fcf7f-530e-49af-bac7-6d41c3a80932.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\3014\\b49fcf7f-530e-49af-bac7-6d41c3a80932.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\3021\\90fab596-24a9-43c8-8fec-c4de0a8121d7.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\3021\\90fab596-24a9-43c8-8fec-c4de0a8121d7.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\3024\\6807514f-cc9b-45e5-809b-bc539a5ac16a.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\3024\\6807514f-cc9b-45e5-809b-bc539a5ac16a.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\3025\\4afd052f-df9e-43a5-ade4-8d326e0be5e1.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\3025\\4afd052f-df9e-43a5-ade4-8d326e0be5e1.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\3026\\748c639f-6685-4b13-929c-15ee8d394ee1.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\3026\\748c639f-6685-4b13-929c-15ee8d394ee1.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\3027\\57dac6eb-6136-4da3-9593-62c7534cd9de.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\3027\\57dac6eb-6136-4da3-9593-62c7534cd9de.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\Images\\Users\\3028\\3fe5873a-5abb-4491-a9e0-fb8f5c57e935.png",
+      "PackagePath": "staticwebassets\\Images\\Users\\3028\\3fe5873a-5abb-4491-a9e0-fb8f5c57e935.png"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\oriam\\Desktop\\programacion3\\SocialNetworkApp\\SocialNetworkApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SocialNetworkApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SocialNetworkApp.props",
+      "PackagePath": "build\\SocialNetworkApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SocialNetworkApp.props",
+      "PackagePath": "buildMultiTargeting\\SocialNetworkApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SocialNetworkApp.props",
+      "PackagePath": "buildTransitive\\SocialNetworkApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

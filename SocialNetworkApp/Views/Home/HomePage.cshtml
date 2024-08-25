@@ -1,0 +1,180 @@
+﻿@model SocialNetworkApp.Core.Application.ViewModels.Users.SaveUserViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container-fluid ">
+	<div class="row mb-2">
+		<div class="col-6 offset-3">
+			<h2 class="float-start">Publicaciones</h2>
+			<a asp-controller="Post" asp-action="Create" asp-route-typepost="ImagePost" class="btn btn-outline-success float-end">Subir imagen</a>
+			<a asp-controller="Post" asp-action="Create" asp-route-typepost="VideoPost" class="btn btn-outline-success float-end me-1">Subir video</a>
+			<a asp-controller="Post" asp-action="Create" asp-route-typepost="TextPost" class="btn btn-outline-success float-end me-1">Crear una publicacion</a>
+			
+		</div>
+	</div>
+
+	@if(Model.Posts != null && Model.Posts.Count > 0)
+	{
+		foreach(var post in Model.Posts)
+		{
+			<div class="row mb-3">
+				<div class="col-6 offset-3">
+					<div class="card">
+						
+						<div class="card-header border-0 pb-2">
+							<div class="d-flex align-items-center justify-content-between">
+								<div class="d-flex align-items-center">
+									
+									<div class="avatar avatar-lg me-2">
+										<a href="#!"> <img class="avatar-img rounded-circle" src="@(Model.AccountImgUrl)" alt=""> </a>
+									</div>
+									
+									<div>
+										<div class="nav nav-divider mb-2">
+											<h6 class="nav-item card-title mb-0 me-3"> <a href="#!"> @(Model.Username) </a></h6>
+											<span class="nav-item small float-end"> @(post.PostingDate) </span>
+											
+										</div>
+										
+									</div>
+
+
+								</div>
+								<div>
+									<a asp-controller="Post" asp-action="Update" asp-route-id="@post.Id" class="btn btn-sm btn-outline-info me-1">Editar</a>
+									<a asp-controller="Post" asp-action="Delete" asp-route-id="@post.Id" class="btn btn-sm btn-outline-danger">Eliminar</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="card-body">
+							@if(post.TypePost == "TextPost")
+							{
+								<p>@(post.Text)</p>
+							}
+							
+							<hr />
+							
+							@if(post.TypePost == "ImagePost")
+							{
+								<img class="card-img w-100" src="@post.ImgUrl" alt="Post">
+								<hr />
+							}
+							@if(post.TypePost == "VideoPost")
+							{
+								<iframe width="100%" height="500px" src="@post.VideoUrl" title="Video subido" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								<hr />
+							}
+
+							
+							<div class="d-flex mb-3 mt-3">
+								
+								<div class="avatar avatar-lg avatar-xs me-2">
+									<a href="#!"> <img class="avatar-img rounded-circle" src="@Model.AccountImgUrl" alt=""> </a>
+								</div>
+
+								<a asp-controller="Comment" asp-action="Create" asp-route-postid="@post.Id" asp-route-redirectTo="HomePage" class="btn btn-outline-success float-end me-1">Agregar comentario</a>
+							</div>
+							
+							<ul class="comment-wrap list-unstyled">
+								
+								<li class="comment-item">
+									<div class="row mb-2">
+										<div class="col-9">
+											<h2 class="float-start">Comentarios</h2>
+
+										</div>
+									</div>
+
+									@if (post.Comments != null && post.Comments.Count > 0)
+									{
+										@foreach (var i in post.Comments)
+										{
+											<div class="d-flex position-relative">
+												
+												<div class="avatar avatar-lg avatar-xs">
+													<a href="#!"><img class="avatar-img rounded-circle" src="@(i.User.AccountImgUrl)" alt=""></a>
+												</div>
+												<div class="ms-2 w-100">
+													
+													<div class="bg-light rounded-start-top-0 p-3 rounded w-100">
+														<div class="d-flex justify-content-between">
+															<h6 class="mb-1"> <a href="#!"> @(i.User.Username) </a></h6>
+															<small class="ms-2">@(i.PostingDate)</small>
+															
+														</div>
+														<p class="small mb-0">@(i.Text)</p>
+													</div>
+													
+													<ul class="nav nav-divider py-2 small">
+														<li class="nav-item">
+															<a asp-controller="Reply" asp-action="Create" asp-route-commentid="@i.Id" asp-route-redirectTo="HomePage" class="nav-link"> Responder</a>
+
+														</li>
+													</ul>
+
+													
+													@if (i.Replies != null && i.Replies.Count > 0)
+													{
+														<div class="ms-4 mt-2">
+															@foreach (var reply in i.Replies)
+															{
+																<div class="d-flex position-relative w-100">
+																	<!-- Avatar -->
+																	<div class="avatar avatar-lg avatar-xxs">
+																		<!-- Ajuste: Avatar más pequeño -->
+																		<a href="#!"><img class="avatar-img rounded-circle" src="@(reply.User.AccountImgUrl)" alt=""></a>
+																	</div>
+																	<div class="ms-2 w-100 mb-4">
+																		<!-- Ajuste: Añadido w-100 -->
+																		<!-- Reply by -->
+																		<div class="bg-light rounded-start-top-0 p-2 rounded w-100">
+																			<!-- Ajuste: Padding más pequeño -->
+																			<div class="d-flex justify-content-between">
+																				<h6 class="mb-1 small"> <a href="#!"> @(reply.User.Username) </a></h6><!-- Ajuste: Texto más pequeño -->
+																				<small class="ms-2">@(reply.PostingDate)</small>
+																			</div>
+																			<p class="small mb-0">@(reply.Text)</p>
+																		</div>
+																		
+																	</div>
+																</div>
+															}
+														</div>
+													}
+												</div>
+												
+											</div>
+										}
+									}
+									else
+									{
+										<div class="alert alert-warning ms-2" role="alert">
+											No hay comentarios para mostrar
+										</div>
+									}
+
+
+								</li>
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		}
+	}
+	else
+	{
+		<div class="alert alert-warning ms-2" role="alert">
+			No hay publicaciones
+		</div>
+	}
+	
+</div>
+
+

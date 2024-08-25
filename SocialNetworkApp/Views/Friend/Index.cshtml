@@ -1,0 +1,214 @@
+﻿@model SocialNetworkApp.Core.Application.ViewModels.Users.SaveUserViewModel
+
+@{
+    ViewData["Title"] = "Publicaciones de mis amigos";
+}
+
+<div class="container-fluid">
+    <div class="row mb-2">
+        <div class="col-5">
+           
+        </div>
+        <div class="col-7">
+            <h2 class="float-start">Publicaciones de mis amigos</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <h2>Lista de Amistades</h2>
+            <div class="card mt-2" style="width: 100%;">
+                <div class="card-body">
+                    <form method="post" asp-action="AddFriend">
+                        @if (!string.IsNullOrWhiteSpace(ViewBag.Mensaje))
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                <p>@ViewBag.Mensaje</p>
+                            </div>
+
+                        }
+                        <div class="mb-2">
+                            <label for="FriendUsername" class="form-label"> Agregar amigo</label>
+                            <input type="text" name="FriendUsername" id="FriendUsername" class="form-control" placeholder="Ingrese el username" />
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 w-100">Agregar</button>
+                    </form>
+                </div>
+            </div>
+            <ul class="list-group">
+                @foreach (var friend in Model.Friends)
+                {
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div class="d-flex align-items-center">
+                            <div class="avatar avatar-lg avatar-sm me-2">
+                                <img class="avatar-img rounded-circle" src="@friend.Friend.AccountImgUrl" alt="">
+                            </div>
+                            <span>@($"{friend.Friend.Name} {friend.Friend.LastName} (@{friend.Friend.Username})")</span>
+                        </div>
+                        <a asp-controller="Friend" asp-action="DeleteFriend" asp-route-id="@friend.Id" class="btn btn-sm btn-outline-danger">Eliminar</a>
+                    </li>
+                }
+            </ul>
+
+        </div>
+
+        @{
+            bool verify = false; 
+        }
+
+        <div class="col-9">
+            <div class="row">
+                @if (Model.Friends != null && Model.Friends.Count > 0)
+                {
+
+                    @if (Model.FriendPosts != null && Model.FriendPosts.Count > 0)
+                    {
+                        verify = true;
+                        foreach (var post in Model.FriendPosts)
+                        {
+
+                            <div class="row mb-3">
+                                <div class="col-12">
+                                    <div class="card">
+                                           
+                                        <div class="card-header border-0 pb-2">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    
+                                                    <div class="avatar avatar-lg me-2">
+                                                        <a href="#!"> <img class="avatar-img rounded-circle" src="@(post.User.AccountImgUrl)" alt=""> </a>
+                                                    </div>
+                                                    
+                                                    <div>
+                                                        <div class="nav nav-divider mb-2">
+                                                            <h6 class="nav-item card-title mb-0 me-3"> <a href="#!"> @(post.User.Username) </a></h6>
+                                                            <span class="nav-item small float-end"> @(post.PostingDate) </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                           
+                                        <div class="card-body">
+                                            @if (post.TypePost == "TextPost")
+                                            {
+                                                <p>@(post.Text)</p>
+                                            }
+                                            else if (post.TypePost == "ImagePost")
+                                            {
+                                                <img class="card-img w-100" src="@post.ImgUrl" alt="Post">
+                                            }
+                                            else if (post.TypePost == "VideoPost")
+                                            {
+                                                <iframe width="100%" height="500px" src="@post.VideoUrl" title="Video subido" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                            }
+                                            <hr />
+                                               
+                                            <div class="d-flex mb-3 mt-3">
+                                                    
+                                                <div class="avatar avatar-lg avatar-xs me-2">
+                                                    <a href="#!"> <img class="avatar-img rounded-circle" src="@Model.AccountImgUrl" alt=""> </a>
+                                                </div>
+                                                   
+                                                <a asp-controller="Comment" asp-action="Create" asp-route-postid="@post.Id" asp-route-redirectTo="Friends" class="btn btn-outline-success float-end me-1">Agregar comentario</a>
+                                            </div>
+
+                                                
+                                            <ul class="comment-wrap list-unstyled">
+                                                   
+                                                <li class="comment-item">
+                                                    <div class="row mb-2">
+                                                        <div class="col-9">
+                                                            <h2 class="float-start">Comentarios</h2>
+                                                        </div>
+                                                    </div>
+                                                    @if (post.Comments != null && post.Comments.Count > 0)
+                                                    {
+                                                        @foreach (var comment in post.Comments)
+                                                        {
+                                                            <div class="d-flex position-relative">
+                                                                   
+                                                                <div class="avatar avatar-lg avatar-xs">
+                                                                    <a href="#!"><img class="avatar-img rounded-circle" src="@(comment.User.AccountImgUrl)" alt=""></a>
+                                                                </div>
+                                                                <div class="ms-2 w-100">
+                                                                       
+                                                                    <div class="bg-light rounded-start-top-0 p-3 rounded w-100">
+                                                                        <div class="d-flex justify-content-between">
+                                                                            <h6 class="mb-1"> <a href="#!"> @(comment.User.Username) </a></h6>
+                                                                            <small class="ms-2">@(comment.PostingDate)</small>
+                                                                        </div>
+                                                                        <p class="small mb-0">@(comment.Text)</p>
+                                                                    </div>
+                                                                        
+                                                                    <ul class="nav nav-divider py-2 small">
+                                                                        <li class="nav-item">
+                                                                            <a asp-controller="Reply" asp-action="Create" asp-route-commentid="@comment.Id" asp-route-redirectTo="Friends" class="nav-link">Responder</a>
+                                                                        </li>
+                                                                    </ul>
+
+                                                                        
+                                                                    @if (comment.Replies != null && comment.Replies.Count > 0)
+                                                                    {
+                                                                        <div class="ms-4 mt-2">
+                                                                            @foreach (var reply in comment.Replies)
+                                                                            {
+                                                                                <div class="d-flex position-relative w-100">
+                                                                                        
+                                                                                    <div class="avatar avatar-lg avatar-xxs">
+                                                                                        <a href="#!"><img class="avatar-img rounded-circle" src="@(reply.User.AccountImgUrl)" alt=""></a>
+                                                                                    </div>
+                                                                                    <div class="ms-2 w-100 mb-4">
+                                                                                           
+                                                                                        <div class="bg-light rounded-start-top-0 p-2 rounded w-100">
+                                                                                            <div class="d-flex justify-content-between">
+                                                                                                <h6 class="mb-1 small"> <a href="#!"> @(reply.User.Username) </a></h6>
+                                                                                                <small class="ms-2">@(reply.PostingDate)</small>
+                                                                                            </div>
+                                                                                            <p class="small mb-0">@(reply.Text)</p>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            }
+                                                                        </div>
+                                                                    }
+                                                                </div>
+                                                            </div>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <div class="alert alert-warning ms-2" role="alert">
+                                                            No hay comentarios para mostrar
+                                                        </div>
+                                                    }
+                                                </li>
+                                                    
+                                            </ul>
+                                                
+                                        </div>
+                                           
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                            
+                    }
+                        
+                    
+                }
+                @if(!verify)
+                {
+                    <div class="col-6 offset-3">
+                        <div class="alert alert-warning ms-2" role="alert">
+                            No hay publicaciones de amigos para mostrar
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+

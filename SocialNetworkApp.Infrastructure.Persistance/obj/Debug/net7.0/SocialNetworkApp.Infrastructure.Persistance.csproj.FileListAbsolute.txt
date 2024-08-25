@@ -1,0 +1,17 @@
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\bin\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.deps.json
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\bin\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\bin\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.pdb
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\bin\Debug\net7.0\SocialNetworkApp.Core.Application.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\bin\Debug\net7.0\SocialNetworkApp.Core.Domain.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\bin\Debug\net7.0\SocialNetworkApp.Core.Application.pdb
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\bin\Debug\net7.0\SocialNetworkApp.Core.Domain.pdb
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.csproj.AssemblyReference.cache
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.AssemblyInfoInputs.cache
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.AssemblyInfo.cs
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNe.93858975.Up2Date
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\refint\SocialNetworkApp.Infrastructure.Persistance.dll
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\SocialNetworkApp.Infrastructure.Persistance.pdb
+C:\Users\oriam\Desktop\programacion3\SocialNetworkApp\SocialNetworkApp.Infrastructure.Persistance\obj\Debug\net7.0\ref\SocialNetworkApp.Infrastructure.Persistance.dll

@@ -1,0 +1,98 @@
+﻿@model SocialNetworkApp.Core.Application.ViewModels.Users.UpdateUserViewModel
+
+@{
+    ViewData["Title"] = "Editar Perfil";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-black text-light">
+                    <h4>Editar Perfil</h4>
+
+                </div>
+                <div class="card-body">
+                    <form method="post" enctype="multipart/form-data" asp-controller="Profile" asp-action="Update">
+                        @if (!string.IsNullOrWhiteSpace(ViewBag.Mensaje))
+                        {
+                            <div class="alert alert-danger" role="alert">
+                                <p>@ViewBag.Mensaje</p>
+                            </div>
+
+                        }
+                        
+                        <div class="mb-2">
+                            <label asp-for="Name" class="form-label">Nombre: </label>
+                            <input asp-for="Name" class="form-control" placeholder="Ingrese el nombre" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="LastName" class="form-label">Apellido: </label>
+                            <input asp-for="LastName" class="form-control" placeholder="Ingrese el apellido" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="PhoneNumber" class="form-label">Telefono en formato requerido 1(829/809/849)(000)(0000): </label>
+                            <input asp-for="PhoneNumber" class="form-control" placeholder="Ingrese el telefono" />
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="mb-2">
+                            <label asp-for="Email" class="form-label">Correo: </label>
+                            <input asp-for="Email" class="form-control" placeholder="Ingrese el correo" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="mb-2">
+                            <label asp-for="Username" class="form-label">Nombre de usuario: </label>
+                            <input asp-for="Username" class="form-control" placeholder="Ingrese el nombre de usuario" />
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                        <div class="mb-2">
+                            <label asp-for="ImageFile" class="form-label">Imagen de perfil: </label>
+                            <input asp-for="ImageFile" class="form-control" />
+
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="Password" class="form-label">Contraseña: </label>
+                            <input asp-for="Password" class="form-control" placeholder="Ingrese la contraseña" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="ConfirmPassword" class="form-label">Confirmar Contraseña: </label>
+                            <input asp-for="ConfirmPassword" class="form-control" placeholder="Ingrese la contraseña nuevamente" />
+                            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                        </div>
+
+
+
+                        <input type="hidden" asp-for="Id" />
+                        <input type="hidden" asp-for="AccountImgUrl" />
+
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Editar</button>
+                            <a asp-controller="Profile" asp-action="Index" asp-route-id="@Model.Id" class="btn btn-warning">Volver</a>
+
+                        </div>
+
+
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
